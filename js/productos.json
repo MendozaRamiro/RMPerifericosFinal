@@ -1,0 +1,124 @@
+{
+  "mouse-gamer": [
+    {
+      "id": 1,
+      "nombre": "Redragon Griffin",
+      "precio": 28000,
+      "imagen": "../images/griffin.png",
+      "descripcion": "Sensor 16000 DPI, RGB personalizable."
+    },
+    {
+      "id": 2,
+      "nombre": "Razer Pro",
+      "precio": 38000,
+      "imagen": "../images/razerpro.png",
+      "descripcion": "Ultraliviano para eSports."
+    },
+    {
+      "id": 4,
+      "nombre": "Logitech G203 ",
+      "precio": 24000,
+      "imagen": "../images/g203.png",
+      "descripcion": "Sensor 16000 DPI, calidad en su diseño ergonomico."
+    },
+    {
+      "id": 3,
+      "nombre": "Logitech HERO",
+      "precio": 120000,
+      "imagen": "../images/g502.png",
+      "descripcion": "Diseñado para rendimiento y personalizacion, lo mejor del mercado con su diseño ergonomico premium."
+    }
+  ],
+  "auriculares": [
+    {
+      "id": 11,
+      "nombre": "Redragon ARES",
+      "precio": 28000,
+      "imagen": "../images/ARES.png",
+      "descripcion": "Audio claro y equilibrado."
+    },
+    {
+      "id": 18,
+      "nombre": "Redragon ZEUS",
+      "precio": 75000,
+      "imagen": "../images/ZEUS-B.png",
+      "descripcion": "Ideales para stremear, gaming profesional."
+    },
+    {
+      "id": 42,
+      "nombre": "Redragon Hylas H260",
+      "precio": 55000,
+      "imagen": "../images/hylash260.png",
+      "descripcion": "Sonido a otro nivel."
+    },
+    {
+      "id": 12,
+      "nombre": "Redragon PANDORA",
+      "precio": 45000,
+      "imagen": "../images/pandora.png",
+      "descripcion": "Sonido nitido y envolvente, perfecto para gaming duradero."
+    }
+  ],
+  "monitores": [
+    {
+      "id": 21,
+      "nombre": "Monitor 24'' 144Hz",
+      "precio": 210000,
+      "imagen": "../images/monitor.png",
+      "descripcion": "FHD, 144Hz, panel IPS."
+    },
+    {
+      "id": 23,
+      "nombre": "Monitor 24'' 180Hz",
+      "precio": 230000,
+      "imagen": "../images/acer.png",
+      "descripcion": "1ms, 180Hz, panel IPS."
+    },
+    {
+      "id": 26,
+      "nombre": "Monitor 24 Curvo'' 144Hz",
+      "precio": 280000,
+      "imagen": "../images/rogmoni.png",
+      "descripcion": "1ms, Gaming a otro nivel."
+    },
+    {
+      "id": 22,
+      "nombre": "Monitor Curvo 27'' 165Hz",
+      "precio": 330000,
+      "imagen": "../images/curvo.png",
+      "descripcion": "Curvo, 1ms, ideal para inmersión."
+    }
+  ],
+  "teclados": [
+    {
+      "id": 31,
+      "nombre": "Logitech G PRO",
+      "precio": 68000,
+      "imagen": "../images/pro.png",
+      "descripcion": "Switches mecánicos, retroiluminación RGB."
+    },
+    {
+      "id": 38,
+      "nombre": "Logitech G915 LIGHTSPEED ",
+      "precio": 80000,
+      "imagen": "../images/sd.png",
+      "descripcion": "Diseñado para rendimiento puro."
+    },
+    {
+      "id": 33,
+      "nombre": "Redragon KUMARA",
+      "precio": 34000,
+      "imagen": "../images/kumara.png",
+      "descripcion": "teclado mecánico compacto, resistente y con switches súper precisos."
+    },
+    {
+      "id": 32,
+      "nombre": "Redragon DRAGORBON",
+      "precio": 38000,
+      "imagen": "../images/dragonborn.png",
+      "descripcion": "Formato compacto, teclas duraderas."
+    }
+  ]
+}
+
+  

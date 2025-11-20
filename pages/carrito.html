@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const user = localStorage.getItem("usuarioLogueado");
+    if (!user) {
+        alert("Iniciá sesión para ver tu carrito.");
+        window.location.href = "../pages/login.html";
+    }
+});
+</script>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <main class="carrito-container">
+    <h2>Carrito de compras</h2>
+    <div id="lista-carrito"></div>
+
+    <div id="total-container">
+      Total: $<span id="total">0</span>
+    </div>
+  </main>
+
+  <script src="../js/navbar.js"></script>
+  <script src="../js/carrito.js"></script>
+</body>
+</html>

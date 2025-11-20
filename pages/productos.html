@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - RM Periféricos</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const user = localStorage.getItem("usuarioLogueado");
+    if (!user) {
+        alert("Debes iniciar sesión para ver los productos.");
+        window.location.href = "../pages/login.html";
+    }
+});
+</script>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <main class="productos">
+    <h2>Todos los Productos</h2>
+
+    <section id="filtros">
+      <button data-cat="todos" class="filtro">Todos</button>
+      <button data-cat="mouse-gamer" class="filtro">Mouse Gamer</button>
+      <button data-cat="auriculares" class="filtro">Auriculares</button>
+      <button data-cat="monitores" class="filtro">Monitores</button>
+      <button data-cat="teclados" class="filtro">Teclados</button>
+    </section>
+
+    <div class="grid" id="contenedor-productos"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 RMPeriféricos</p>
+  </footer>
+
+  <script src="../js/navbar.js"></script>
+  <script src="../js/productos.js"></script>
+  
+</body>
+</html>
