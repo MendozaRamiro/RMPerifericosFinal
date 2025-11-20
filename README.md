@@ -1,11 +1,12 @@
 
 # Mi Tienda - Proyecto Ecommerce
 
-Trabajo práctico 5° etapa -  Aplicaciones  Web.
+Entrega Final RMPerifericos -  Aplicaciones  Web.
 
 
 
 Alumno:   Ramiro Mendoza  
 Profesor: Antonio Caminos
+
 
 
